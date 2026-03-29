@@ -17,7 +17,7 @@ const BookCard: React.FC<Props> = ({ book }) => {
   const cartItem = cartItems.find(item => item.book.BookID === book.BookID);
   const quantityInCart = cartItem ? cartItem.quantity : 0;
 
-  //NEW BOOTSTRAP FEATURE 2
+  //NEW BOOTSTRAP FEATURE 2 TOOLTIP FEATURE
   //initialize tooltip showing quantity in cart or default message
   useEffect(() => {
     let tooltip: any = null;

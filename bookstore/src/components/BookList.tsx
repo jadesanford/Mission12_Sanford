@@ -124,7 +124,7 @@ const BookList: React.FC = () => {
                 <i className="bi bi-funnel-fill me-2"></i>filter by category
               </h6>
             </div>
-            {/*bootstrap accordion for categories*/}
+            {/*NEW BOOTSTRAP FEATURE 1 ACCORDION*/}
             <div className="accordion accordion-flush" id="categoryAccordion">
               <div className="accordion-item border-0">
                 <h2 className="accordion-header">
